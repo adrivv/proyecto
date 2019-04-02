@@ -1,0 +1,44 @@
+#!/bin/bash
+
+#
+#  Archivo con el código asociado a la gestión de Usuarios
+#
+mostrar_menu(){    
+
+    echo -e "\n \n"
+    echo "*************** MENU PRINCIPAL MI SCRIPT MÓDULO ISO *****************$
+    echo -e "\n \n"
+         echo -e "\t [u] ---> Gestionar Usuarios"
+    echo -e "\t [d] ---> Gestionar Disco"
+    echo -e "\t [p] ---> Gestionar Procesos"
+    echo -e "\n"
+    echo
+    echo "*********************************************************************$
+         echo -e "\n"
+         echo "seleccionar una opcion" 
+}
+
+
+informacion_inicial_usuarios()
+{    
+    	
+   clear
+	echo "----------------------------------------------------------------"    
+	echo "----------------------------------------------------------------" 	
+   echo -e " \t Ha seleccionado la opción GESTIONAR USUARIOS"
+   echo "----------------------------------------------------------------" 	 
+   echo "----------------------------------------------------------------" 
+    
+}
+
+
+
+gestionar_usuarios()
+{    
+    	
+    echo "Aquí iría código para la gestión de disco"
+    
+}
+
+
+
